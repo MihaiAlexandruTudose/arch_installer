@@ -5,7 +5,7 @@ name=$(cat /tmp/user_name)
 apps_path="/tmp/apps.csv"
 
 # Don't forget to replace "Phantas0s" by the username of your Github account
-curl https://raw.githubusercontent.com/Phantas0s\
+curl https://raw.githubusercontent.com/MihaiAlexandruTudose\
 /arch_installer/master/apps.csv > $apps_path
 
 dialog --title "Welcome!" \
@@ -77,7 +77,7 @@ done
 echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
 
 # Don't forget to replace "Phantas0s" by the username of your Github account
-curl https://raw.githubusercontent.com/Phantas0s\
+curl https://raw.githubusercontent.com/MihaiAlexandruTudose\
 /arch_installer/master/install_user.sh > /tmp/install_user.sh;
 
 # Switch user and run the final script
